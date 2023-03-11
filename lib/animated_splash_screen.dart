@@ -221,7 +221,7 @@ class _AnimatedSplashScreenState extends State<AnimatedSplashScreen>
                   begin: BoxDecoration(color: Colors.redAccent));
 
             default:
-              return Tween(begin: 0.0, end: 1.0);
+              return Tween(begin: 0.0, end: 4.0);
           }
         }() as Animatable<dynamic>;
 
