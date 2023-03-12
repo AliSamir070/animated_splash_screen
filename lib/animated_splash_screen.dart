@@ -245,7 +245,7 @@ class _AnimatedSplashScreenState extends State<AnimatedSplashScreen>
   }
 
   navigator(screen) {
-    Future.delayed(Duration(milliseconds: w.duration < 100 ? 100 : w.duration))
+    Future.delayed(Duration(milliseconds:w.duration))
         .then((_) {
       try {
         if (screen is String) {
